@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body background = "assets/css/pipes.png">
+        <header>
+            <div id="name">
+                <h2>Steven Peng</h2>
+            </div>
+
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+
+        <div id="about">
+            <h2 id="contact2">Contact Info</h2>
+            <div>
+                <p id = "emailTag">speng838@gmail.com</p>
+                <p id = "phone">(202)-839-0102</p>
+            </div>
+
+            <div>
+                <!--<img class = "linkedin" src = "assets/images/LinkedIn.jpg" width = "50px" height = "50px"> -->
+                <a href = "https://www.linkedin.com/in/steven-peng-71719548/"><i class="fa fa-linkedin" id = "linkedin" style="font-size:36px" title = "linkedin"></i></a>
+                <a href = "https://github.com/speng838"><i class="fa fa-git"  id = "github" style="font-size:36px" title = "github"></i></a>
+                <a href = "https://docs.google.com/document/d/1dLjq_RhX8_YpMenp2aD8_68a_ZkBeENANUtjmsk6hRA/edit?usp=sharing"><i class="fa fa-trello" id = "resume" title = "resume" style="font-size:36px"></i></a>
+            </div>
+
+            <h2 id="contact2">Contact Me</h2>
+
+            <div class= col-md-6>
+                <label>Name</label>
+                <br/>
+                <input required type = "text" id="nameFillOut" />
+                <br/><br/>
+            </div>
+
+            <div class= col-md-6>
+                <label>Email</label>
+                <br/>
+                <input required type = "email" id="email" />
+                <br/><br/>
+            </div>
+
+            <div class= col-md-6>
+                <label>Message</label>
+                <br/>
+                <textarea id = "message" ></textarea>
+                <br/><br/>
+            </div>
+
+            <button id="submitButton" class="btn btn-info">SUBMIT</button>
+
+
+        </div>
+
+        <footer>
+            <section></section>
+            <h6>Copyright 2018</h6>
+        </footer>
+    </body>
+</html>
