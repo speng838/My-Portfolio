@@ -4,45 +4,65 @@
     background-image: url("assets/css/pipes.png");   
 }*/
 
-header{
-    background-color:#ffffff;
-    width: 100%;
-    border-bottom:1px solid #cccccc;  
-    height: 68px;  
+#headerIndex{
+    opacity: 0.8;
+    background-color: rgb(238,181,51);
+    max-width:960px;
+    margin-left: 150px;
+    /*border-bottom:5px solid rgb(136,13,11); */
 }
 
 #name{
-    background-color:teal ;
+    background-color: black ;
     color:white;
-    margin-left:12%;
-    margin-top:15px;
+    margin-left:-2%;
+    margin-top:5px;
     width:200px;
-    height:50px;
+    height:60px;
     text-align: center;
     float: left;
     font-family: 'Times New Roman', Times, serif
 }
 
+#nameIndex{
+    margin-top: 10px;
+    color:rgb(238,181,51);
+}
+
 nav{
     float: left;
-    margin-left: 45%;
-    margin-top: 2%;
+    margin-left: 60%;
+    margin-top: 4%;
 
 }
 
+.indexLinkIndex{
+    color: rgb(136,13,11);
+}
+
+.portfolioLinkIndex{
+    color: rgb(136,13,11);
+}
+
+.contactLinkIndex{
+    color: rgb(136,13,11);
+}
+
+
 #about{
     width: 960px;
-    background-color: #ffffff;
+    background-color: rgb(238,181,51);
     padding: 20px;
     border: 0.5px solid #cccccc;
     margin: auto;
     margin-top: 50px;
     overflow: auto;
     clear: both;
+    opacity: 0.8;
 }
 
 #aboutme{
-    color:teal;
+    color:rgb(136,13,11);
     border-bottom:2px solid #cccccc; 
     font-family: 'Times New Roman', Times, serif;
 }
@@ -56,6 +76,7 @@ nav{
     margin-top: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 12;
+    color: black;
 }
 
 div p{
@@ -63,14 +84,14 @@ div p{
 }
 
 footer{
-    background-color: #666666;
+    background-color: black;
     width: 100%;
     height: 75px;
     margin-top: 140px;
 }
 
 footer section{
-    background-color: teal;
+    background-color: rgb(238,181,51);
     width: 100%;
     height: 5px;
 }
@@ -81,6 +102,10 @@ h6{
     text-align: center;
 }
 
+.copyRightIndex{
+    margin-top: 25px;
+    color: white;
+}
 
 /*Portfolio page*/
 
@@ -221,7 +246,62 @@ h6{
 }
 
 /*Contact*/
+#headerContact{
+    opacity: 0.9;
+    background-color: orange;
+    max-width:960px;
+    margin-left: 150px;
+}
+#body3{
+    background-size: cover;
+}
 
+#aboutContact{
+    opacity: 0.8;
+    background-color: orange;
+    width: 960px;
+    padding: 20px;
+    border: 0.5px solid #cccccc;
+    margin: auto;
+    margin-top: 50px;
+    overflow: auto;
+    clear: both;
+}
+
+#nameContact{
+    background-color: rgb(19,88,147);
+    color:orange;
+    margin-left:-25px;
+    margin-top:-11px;
+    width:200px;
+    height:75px;
+    text-align: center;
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 25px;
+}
+
+#nameContactName{
+    margin-top: 18px;
+    text-shadow: 1px 1px white;
+}
+
+#navContact{
+    float: left;
+    margin-left: 61%;
+    margin-top: 4%;
+}
+.aboutLinkContact{
+    color: white;
+}
+
+.portfolioLinkContact{
+    color: white;
+}
+
+.contactLinkContact{
+    color: white;
+}
 #linkedin{
     margin-left: 400px;
     border-radius: 50%;
@@ -245,15 +325,17 @@ h6{
 
 #emailTag{
     margin-left: 20px;
+    color: white;
 }
 
 #phone{
     margin-left: 20px;
+    color: white;
 }
 
 #contact2{
     
-    color:teal;
+    color:rgb(19,88,147);
     border-bottom:2px solid #cccccc;  
     font-family: 'Times New Roman', Times, serif
 }
@@ -264,26 +346,52 @@ h6{
 
 #nameFillOut{
     width:900px;
+    color:rgb(19,88,147);
     border-color: #cccccc;
+}
+
+.name{
+    color: white;
 }
 
 #email{
     width:900px;
+    color:rgb(19,88,147);
     border-color: #cccccc;
+}
+
+.email{
+    color: white;
 }
 
 #message{
     width:900px;
     height: 150px;
+    color: rgb(19,88,147);
     border-color: #cccccc;
 }
 
+.message{
+    color: white;
+}
+
 #submitButton{
-    background-color: teal;
+    background-color: rgb(19,88,147);
     color: white;
     width: 100px;
     height:40px;
     margin-left:20px;
+}
+
+#sectionContact{
+    background-color:orange;
+    width: 100%;
+    height: 5px;
+}
+
+#copyRightContact{
+    color: white;
+    margin-top: 2%;
 }
 
 /*Media Queries*/

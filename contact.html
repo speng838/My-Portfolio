@@ -8,20 +8,20 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
-    <body background = "assets/css/pipes.png">
-        <header>
-            <div id="name">
-                <h2>Steven Peng</h2>
+    <body id = "body3" background = "assets/images/earth.jpg">
+        <header class = "jumbotron" id = "headerContact">
+            <div id="nameContact">
+                <h2 id="nameContactName">Steven Peng</h2>
             </div>
 
-            <nav>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
+            <nav id=navContact>
+                <a class = "aboutLinkContact" href="index.html">About</a>
+                <a class = "portfolioLinkContact" href="portfolio.html">Portfolio</a>
+                <a class = "contactLinkContact" href="contact.html">Contact</a>
             </nav>
         </header>
 
-        <div id="about">
+        <div id="aboutContact">
             <h2 id="contact2">Contact Info</h2>
             <div>
                 <p id = "emailTag">speng838@gmail.com</p>
@@ -38,34 +38,34 @@
             <h2 id="contact2">Contact Me</h2>
 
             <div class= col-md-6>
-                <label>Name</label>
+                <label class = "name">Name</label>
                 <br/>
-                <input required type = "text" id="nameFillOut" />
+                <input required type = "text" class="form-control" id="nameFillOut" />
                 <br/><br/>
             </div>
 
             <div class= col-md-6>
-                <label>Email</label>
+                <label class = "email">Email</label>
                 <br/>
-                <input required type = "email" id="email" />
+                <input required type = "email" class="form-control" id="email" />
                 <br/><br/>
             </div>
 
             <div class= col-md-6>
-                <label>Message</label>
+                <label class = "message">Message</label>
                 <br/>
-                <textarea id = "message" ></textarea>
+                <textarea id = "message" class="form-control"></textarea>
                 <br/><br/>
             </div>
 
-            <button id="submitButton" class="btn btn-info">SUBMIT</button>
+            <button id="submitButton" class="btn btn-primary">SUBMIT</button>
 
 
         </div>
 
         <footer>
-            <section></section>
-            <h6>Copyright 2018</h6>
+            <section id = sectionContact></section>
+            <h6 id = copyRightContact>Copyright 2018</h6>
         </footer>
     </body>
 </html>
