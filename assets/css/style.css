@@ -21,12 +21,13 @@
     height:60px;
     text-align: center;
     float: left;
-    font-family: 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #nameIndex{
     margin-top: 10px;
     color:rgb(238,181,51);
+    text-shadow: 1px 1px white;
 }
 
 nav{
@@ -64,7 +65,7 @@ nav{
 #aboutme{
     color:rgb(136,13,11);
     border-bottom:2px solid #cccccc; 
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #aboutMeImage{
@@ -109,25 +110,82 @@ h6{
 
 /*Portfolio page*/
 
+#headerPortfolio{
+    opacity: 0.8;
+    background-color:rgb(151,37,43);
+    max-width:960px;
+    margin-left: 150px;
+}
+
+#namePortfolio{
+    background-color: rgb(65,71,189);
+    color:white;
+    margin-left:-25px;
+    margin-top:-11px;
+    width:230px;
+    height:75px;
+    text-align: center;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 25px;
+}
+
+#namePortfolioName{
+    margin-top: 18px;
+    text-shadow: 3px 3px red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#bodyPortfolio{
+    background-size: cover;
+}
+
+#navPortfolio{
+    float: left;
+    margin-left: 58%;
+    margin-top: 4%;
+}
+
+.aboutLinkPortfolio{
+    color: white;
+}
+
+.portfolioLinkPortfolio{
+    color: white;
+}
+
+.contactLinkPortfolio{
+    color: white;
+}
+
 #aboutportfolio{
     width: 960px;
     height: 1200px;
-    background-color: #ffffff;
+    background-color: rgb(151,37,43);
     padding: 20px;
     border: 0.5px solid #cccccc;
     margin: auto;
     margin-top: 50px;
     overflow: auto;
     clear: both;
+    opacity: 0.85;
 
 }
 
 #portfolio{
 
-    color:teal;
+    color:white;
     border-bottom:2px solid #cccccc; 
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
+}
+
+#buttonPortfolio{
+    background-color: rgb(151,37,43);
+}
+
+#psychicGame{
+    margin-left: 125px;
 }
 
 .psychicGame{
@@ -135,12 +193,13 @@ h6{
     z-index: 1;
     float: left;
     border-radius: 20%;
+    border:5px solid rgb(65,71,189);
 }
 
 #psychicGameWord{
 
-    background-color: teal;
-    color: white;
+    background-color: rgb(65,71,189);
+    color: gold;
     width: 300px;
     height:90px;
     padding: 25px;
@@ -155,12 +214,13 @@ h6{
     z-index: 1;
     float: left;
     border-radius: 20%;
+    border:5px solid rgb(65,71,189);
 }
 
 #crystalCollectorWord{
     
-    background-color: teal;
-    color: white;
+    background-color: rgb(65,71,189);
+    color: gold;
     width: 300px;
     height:90px;
     padding: 25px;
@@ -170,7 +230,7 @@ h6{
     margin-top:175px;
 }
 #crystalCollector{
-    margin-left: 350px;
+    margin-left: 475px;
 }
 
 .trivia{
@@ -178,12 +238,13 @@ h6{
     z-index: 1;
     float: left;
     border-radius: 20%;
+    border:5px solid rgb(65,71,189);
 }
 
 #triviaword{
 
-    background-color: teal;
-    color: white;
+    background-color:rgb(65,71,189);
+    color: gold;
     width: 300px;
     height:90px;
     padding: 25px;
@@ -196,6 +257,7 @@ h6{
 
 #trivia{
     margin-top: 350px;
+    margin-left: 125px;
 }
 
 .gif{
@@ -203,12 +265,13 @@ h6{
     z-index: 1;
     float: left;
     border-radius: 20%;
+    border:5px solid rgb(65,71,189);
 }
 
 #gifWord{
     
-    background-color: teal;
-    color: white;
+    background-color: rgb(65,71,189);
+    color: gold;
     width: 300px;
     height:90px;
     padding: 25px;
@@ -218,7 +281,7 @@ h6{
     margin-top:175px;
 }
 #gif{
-    margin-left: 350px;
+    margin-left: 475px;
     margin-top: 350px;
 }
 
@@ -227,12 +290,13 @@ h6{
     z-index: 1;
     float: left;
     border-radius: 20%;
+    border:5px solid rgb(65,71,189);
 }
 
 #trainSchedulerWord{
     
-    background-color: teal;
-    color: white;
+    background-color:rgb(65,71,189);
+    color: gold;
     width: 300px;
     height:90px;
     padding: 25px;
@@ -243,6 +307,11 @@ h6{
 }
 #trainScheduler{
     margin-top: 700px;
+    margin-left: 125px;
+}
+
+#sectionPortfolio{
+    background-color: rgb(151,37,43);
 }
 
 /*Contact*/
@@ -273,7 +342,7 @@ h6{
     color:orange;
     margin-left:-25px;
     margin-top:-11px;
-    width:200px;
+    width:230px;
     height:75px;
     text-align: center;
     float: left;
@@ -284,11 +353,12 @@ h6{
 #nameContactName{
     margin-top: 18px;
     text-shadow: 1px 1px white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #navContact{
     float: left;
-    margin-left: 61%;
+    margin-left: 58%;
     margin-top: 4%;
 }
 .aboutLinkContact{
@@ -337,7 +407,7 @@ h6{
     
     color:rgb(19,88,147);
     border-bottom:2px solid #cccccc;  
-    font-family: 'Times New Roman', Times, serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 .col-md-6{
@@ -398,6 +468,7 @@ h6{
 
 /*1*/
 
+
 @media only screen and (max-width: 980px){
 
     #about{
@@ -423,6 +494,7 @@ h6{
 }
 
 /*2*/
+
 @media only screen and (max-width: 980px){
 
     #aboutportfolio{
@@ -487,4 +559,4 @@ h6{
     #about{
         width:160px;
     }
-}
+} 
