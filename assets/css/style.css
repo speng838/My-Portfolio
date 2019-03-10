@@ -8,7 +8,7 @@
     opacity: 0.8;
     background-color: rgb(238,181,51);
     max-width:960px;
-    margin-left: 98px;
+    margin-left: 95px;
     /*border-bottom:5px solid rgb(136,13,11); */
 }
 
@@ -114,7 +114,7 @@ h6{
     opacity: 0.8;
     background-color:rgb(151,37,43);
     max-width:960px;
-    margin-left: 98px;
+    margin-left: 95px;
 }
 
 #namePortfolio{
@@ -319,7 +319,7 @@ h6{
     opacity: 0.9;
     background-color: orange;
     max-width:960px;
-    margin-left: 98px;
+    margin-left: 95px;
 }
 #body3{
     background-size: cover;
